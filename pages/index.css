@@ -13,6 +13,8 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
+  background-image: url("../images/background_header.svg");
+  background-size: cover;
 }
 
 nav {
@@ -114,11 +116,9 @@ nav {
   margin-bottom: 40px;
 }
 .recipes {
-  margin: auto;
   background-color: #0a2750;
-}
-
-.background_image {
+  background-image: url("../images/background_recipes.svg");
+  background-size: cover;
 }
 
 .recipes__title {
