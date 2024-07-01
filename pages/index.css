@@ -8,6 +8,7 @@
 }
 
 .header {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -47,11 +48,12 @@ nav {
 }
 
 .header__content {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
 }
 
 .header__title {
+  margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -64,6 +66,7 @@ nav {
 }
 
 .header__span-accent {
+  display: block;
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -73,6 +76,7 @@ nav {
 }
 
 .header__description {
+  margin: 0;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -84,10 +88,11 @@ nav {
 }
 
 .header__image {
+  position: absolute;
   width: 646px;
   height: 568px;
-  margin-top: 124px;
-  margin-right: 5px;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
@@ -122,6 +127,7 @@ nav {
 }
 
 .recipes__title {
+  margin: 0;
   padding-top: 100px;
   margin-left: 80px;
   max-width: 580px;
