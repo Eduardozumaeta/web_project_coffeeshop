@@ -51,11 +51,6 @@ nav {
   padding: 0;
 }
 
-.header__content {
-  /*display: flex;
-  justify-content: space-between;*/
-}
-
 .header__title {
   margin: 0;
   font-family: "Inter", arial, sans-serif;
