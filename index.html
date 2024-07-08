@@ -106,7 +106,7 @@
         </section>
         <section class="reservation" id="reservation">
           <p class="reservation__title">Reservar una mesa</p>
-          <form class="reservation__form">
+          <form class="form">
             <fieldset class="form__fieldset">
               <label class="form__label" for="name">Nombre*</label>
               <input
@@ -116,8 +116,6 @@
                 placeholder="Nombre"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label class="form__label" for="comensales"
                 >Número de comensales*</label
               >
@@ -128,8 +126,6 @@
                 placeholder="1-8"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label class="form__label" for="date">Fecha y hora*</label>
               <input
                 class="form__input"
@@ -138,8 +134,6 @@
                 placeholder="dd/mm/aaaa"
                 required
               />
-            </fieldset>
-            <fieldset class="form__fieldset">
               <label class="form__label" for="email"
                 >Tu correo electronico*</label
               >
@@ -151,17 +145,17 @@
                 required
               />
             </fieldset>
-            <button class="form__button" type="submit">
+            <button class="form__submit" type="submit">
               Reservar una mesa
             </button>
-            <fieldset class="checkbox">
+            <fieldset class="box">
               <input
                 class="form__checkbox"
                 type="checkbox"
                 id="terms"
                 required
               />
-              <label class="form__label-checkbox" for="terms"
+              <label class="form__label" for="terms"
                 >Acepto los terminos de uso</label
               >
             </fieldset>
