@@ -4,6 +4,8 @@
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
   background-size: cover;
+  position: relative;
+  z-index: 5;
 }
 
 .reservation__title {
