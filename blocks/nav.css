@@ -26,6 +26,7 @@ nav {
 
 .nav__link {
   text-decoration: none;
+  color: inherit;
 }
 
 .nav__link:hover {

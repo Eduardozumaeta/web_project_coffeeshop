@@ -45,8 +45,9 @@
 }
 
 .header__image {
+  object-fit: contain;
   position: absolute;
-  width: 646px;
+  width: 33rem;
   height: 568px;
   top: 124px;
   right: 5px;
